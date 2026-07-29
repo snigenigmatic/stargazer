@@ -3,6 +3,10 @@
 Kaustubh C
 c-kaustubh.netlify.app | github.com/snigenigmatic
 
+Repo : https://github.com/snigenigmatic/stargazer
+
+open up `stargazer/out/map.html` in your browser to see the market map.
+
 ---
 
 ## Part 1: Market mapping
