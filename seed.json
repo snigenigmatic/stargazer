@@ -1,0 +1,17 @@
+[
+  {"company": "OpenAI", "category": "surface", "region": "global", "note": "ChatGPT is the default surface; the benchmark every other category is measured against"},
+  {"company": "Perplexity", "category": "answer", "region": "global", "note": "answer engine; value leaves with the answer"},
+  {"company": "Suno", "category": "creation", "region": "global", "note": "music generation; artifact goes home with the user"},
+  {"company": "ElevenLabs", "category": "creation", "region": "global", "note": "voice generation; creator and developer split"},
+  {"company": "Runway", "category": "creation", "region": "global", "note": "video generation; competing with Luma and Higgsfield"},
+  {"company": "Higgsfield", "category": "creation", "region": "global", "note": "consumer video; distribution-led"},
+  {"company": "Character.AI", "category": "relationship", "region": "global", "note": "highest session depth in consumer AI; retained asset is user-created"},
+  {"company": "Replika", "category": "relationship", "region": "global", "note": "longest-running companion product; policy risk is the live question"},
+  {"company": "Sesame", "category": "ambient", "region": "global", "note": "voice-native with persistent memory; watchlist priority"},
+  {"company": "Limitless", "category": "ambient", "region": "global", "note": "wearable capture plus recall; hardware margin risk"},
+  {"company": "Genspark", "category": "agent", "region": "global", "note": "consumer agent; reliability is the retention variable"},
+  {"company": "Sarvam AI", "category": "surface", "region": "india", "note": "India-first assistant; multilingual distribution wedge"},
+  {"company": "Krutrim", "category": "surface", "region": "india", "note": "India assistant tied to Ola distribution"},
+  {"company": "Dashtoon", "category": "creation", "region": "india", "note": "AI comics; consumer content rather than tooling"},
+  {"company": "Wysa", "category": "relationship", "region": "india", "note": "conversational mental health; payer is often not the user"}
+]

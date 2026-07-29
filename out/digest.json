@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-07-29T16:04:11.930838+00:00",
+  "changed": [
+    "Fish Audio raised $52.0M (seed)",
+    "Polar raised $5.7M (seed)",
+    "Hint entered the map under ambient",
+    "Polar entered the map under surface",
+    "Fish Audio entered the map under creation"
+  ],
+  "to_meet": [
+    {
+      "name": "Polar",
+      "score": 8.0,
+      "category": "surface",
+      "stage": "seed",
+      "why": "new to the map this week; at seed; wins on habit and distribution; almost impossible to enter late",
+      "source": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/"
+    },
+    {
+      "name": "Fish Audio",
+      "score": 6.0,
+      "category": "creation",
+      "stage": "seed",
+      "why": "new to the map this week; at seed; lowest switching cost in consumer ai; the file goes home with the user",
+      "source": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+    }
+  ],
+  "momentum": [
+    {
+      "category": "creation",
+      "last7": 10,
+      "weekly_baseline": 0,
+      "delta": 10
+    },
+    {
+      "category": "ambient",
+      "last7": 5,
+      "weekly_baseline": 0,
+      "delta": 5
+    },
+    {
+      "category": "surface",
+      "last7": 4,
+      "weekly_baseline": 0,
+      "delta": 4
+    },
+    {
+      "category": "relationship",
+      "last7": 4,
+      "weekly_baseline": 0,
+      "delta": 4
+    },
+    {
+      "category": "agent",
+      "last7": 3,
+      "weekly_baseline": 0,
+      "delta": 3
+    },
+    {
+      "category": "answer",
+      "last7": 2,
+      "weekly_baseline": 0.3,
+      "delta": 1.7
+    }
+  ],
+  "thesis_under_pressure": "Creation tool is absorbing attention this week. Crowding is a reason to move earlier, not a reason to believe.",
+  "counts": {
+    "entities": 31,
+    "changes": 34,
+    "new": 16,
+    "funding": 2
+  }
+}

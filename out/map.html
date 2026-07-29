@@ -1,0 +1,360 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Consumer AI radar</title>
+<link rel=preconnect href="https://fonts.googleapis.com">
+<link rel=preconnect href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel=stylesheet>
+<style>
+:root{
+  --ink:#14161A; --paper:#EEEFEA; --rule:#C9CBC3; --dim:#8B8F86;
+  --signal:#1F3BE0; --flag:#A8412B; --card:#F7F7F4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding:40px 24px 96px}
+header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:8px}
+h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(30px,5vw,52px);
+  line-height:1.02;margin:0 0 10px;letter-spacing:-.02em}
+.sub{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--dim);
+  text-transform:uppercase;letter-spacing:.08em}
+.asof{display:flex;flex-wrap:wrap;gap:20px;margin-top:14px;
+  font-family:"IBM Plex Mono",monospace;font-size:12px}
+.asof b{font-weight:600;color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:18px;padding:14px 0;border-bottom:1px solid var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--dim);
+  text-transform:uppercase;letter-spacing:.06em}
+.band{border-bottom:1px solid var(--rule);padding:30px 0}
+.bandhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;margin-bottom:4px}
+.bandhead h2{font-family:"Fraunces",Georgia,serif;font-size:24px;font-weight:600;margin:0;
+  letter-spacing:-.01em}
+.buys{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--dim)}
+.thesis{font-size:13.5px;color:#4A4E48;max-width:62ch;margin:0 0 18px}
+.delta{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:2px 7px;border:1px solid var(--rule)}
+.delta.up{color:var(--signal);border-color:var(--signal)}
+.delta.down{color:var(--flag);border-color:var(--flag)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--rule);padding:0 14px 12px 4px;
+  display:grid;grid-template-columns:20px 1fr}
+.gutter{display:flex;flex-direction:column;gap:3px;padding:15px 0 12px 6px}
+.tick{width:7px;height:2px;background:var(--ink);opacity:.55}
+.name{font-weight:600;font-size:16px;margin:12px 0 2px;letter-spacing:-.01em}
+.meta{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--dim);
+  display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.meta .new{color:var(--signal)}
+.headline{font-size:13px;color:#4A4E48;margin:0 0 8px}
+.headline a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.headline a:hover,.headline a:focus{border-color:var(--signal);color:var(--signal)}
+.prov{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--dim);
+  text-transform:uppercase;letter-spacing:.06em}
+.decay-1{opacity:.82}.decay-2{opacity:.62}.decay-3{opacity:.44}
+.empty{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--dim)}
+footer{margin-top:44px;padding-top:18px;border-top:2px solid var(--ink);
+  font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--dim);max-width:70ch}
+a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}}
+.card:hover{border-color:var(--ink)}
+@media (max-width:620px){.wrap{padding:24px 16px 64px}.grid{grid-template-columns:1fr}}
+</style></head><body><div class=wrap>
+<header>
+<div class=sub>Stargazer &middot; consumer AI</div>
+<h1>The map is a view,<br>not a document.</h1>
+<div class=asof>
+<span>as of <b>2026-07-29 16:04 UTC</b></span>
+<span>companies <b>31</b></span>
+<span>changes this run <b>34</b></span>
+<span>new this run <b>16</b></span>
+</div></header>
+<div class=legend>
+<span>one tick = one day since last confirmation</span>
+<span>faded = decaying, needs re-confirmation</span>
+<span>every field links to its source</span>
+</div>
+<section class=band>
+<div class=bandhead><h2>Surface</h2><span class=buys>buys: a default place to think</span><span class="delta up">+4 vs baseline</span></div>
+<p class=thesis>wins on habit and distribution; almost impossible to enter late</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Polar</div>
+<div class=meta><span class=new>new</span> seed $5.7M 0d</div>
+<p class=headline><a href="https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/">Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work</a></p>
+<div class=prov>techcrunch &middot; llm &middot; conf 0.85</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Sarvam AI</div>
+<div class=meta><span class=new>new</span> india 0d</div>
+<p class=headline><a href="analyst://watchlist">India-first assistant; multilingual distribution wedge</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Krutrim</div>
+<div class=meta><span class=new>new</span> india 0d</div>
+<p class=headline><a href="analyst://watchlist">India assistant tied to Ola distribution</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>OpenAI</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">ChatGPT is the default surface; the benchmark every other category is measured against</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+</div></section>
+<section class=band>
+<div class=bandhead><h2>Answer engine</h2><span class=buys>buys: a correct answer</span><span class="delta up">+1.7 vs baseline</span></div>
+<p class=thesis>value leaves with the answer; defends on speed, sources and trust</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Perplexity</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">answer engine; value leaves with the answer</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+</div></section>
+<section class=band>
+<div class=bandhead><h2>Creation tool</h2><span class=buys>buys: a finished artifact</span><span class="delta up">+10 vs baseline</span></div>
+<p class=thesis>lowest switching cost in consumer ai; the file goes home with the user</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Fish Audio</div>
+<div class=meta><span class=new>new</span> seed $52.0M 0d</div>
+<p class=headline><a href="https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/">Fish Audio raises $52M seed to build AI voice models for creators and enterprises</a></p>
+<div class=prov>techcrunch_ai &middot; llm &middot; conf 0.75</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Dashtoon</div>
+<div class=meta><span class=new>new</span> india 0d</div>
+<p class=headline><a href="analyst://watchlist">AI comics; consumer content rather than tooling</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Suno</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">music generation; artifact goes home with the user</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>ElevenLabs</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">voice generation; creator and developer split</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Runway</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://venturebeat.com/technology/runway-couldnt-fix-a-bug-in-its-ai-video-model-so-it-turned-the-bug-into-a-feature">Runway couldn&#x27;t fix a bug in its AI video model, so it turned the bug into a feature</a></p>
+<div class=prov>venturebeat &middot; llm &middot; conf 0.9</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Higgsfield</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">consumer video; distribution-led</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+</div></section>
+<section class=band>
+<div class=bandhead><h2>Relationship</h2><span class=buys>buys: the presence of another mind</span><span class="delta up">+4 vs baseline</span></div>
+<p class=thesis>the retained asset is created by the user and cannot be exported</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Wysa</div>
+<div class=meta><span class=new>new</span> india 0d</div>
+<p class=headline><a href="analyst://watchlist">conversational mental health; payer is often not the user</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Character.AI</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">highest session depth in consumer AI; retained asset is user-created</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Replika</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">longest-running companion product; policy risk is the live question</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+</div></section>
+<section class=band>
+<div class=bandhead><h2>Ambient context</h2><span class=buys>buys: a system that already knows you</span><span class="delta up">+5 vs baseline</span></div>
+<p class=thesis>memory and context compound; the moat is accumulated, not trained</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Sesame</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">voice-native with persistent memory; watchlist priority</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Limitless</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">wearable capture plus recall; hardware margin risk</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Hint</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/">Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners</a></p>
+<div class=prov>techcrunch &middot; llm &middot; conf 0.82</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Ozlo</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/">Ozlo’s Sleepbuds 2 build on Bose’s sleep earbud legacy</a></p>
+<div class=prov>techcrunch &middot; llm &middot; conf 0.7</div>
+</div></article>
+</div></section>
+<section class=band>
+<div class=bandhead><h2>Agent</h2><span class=buys>buys: a completed task</span><span class="delta up">+3 vs baseline</span></div>
+<p class=thesis>retention tracks reliability, not novelty; one bad run undoes a month</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Genspark</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="analyst://watchlist">consumer agent; reliability is the retention variable</a></p>
+<div class=prov>watchlist &middot; human &middot; conf 1.0</div>
+</div></article>
+</div></section>
+<section class=band>
+<div class=bandhead><h2>Unclassified</h2><span class=buys>buys: not yet placed</span></div>
+<p class=thesis>queued for analyst review</p>
+<p class=empty>no companies tracked in this category yet</p></section>
+<section class=band>
+<div class=bandhead><h2>Review queue</h2><span class=buys>buys: not yet trusted</span></div>
+<p class=thesis>Machine-extracted below the confidence floor, or seen on a single launch source with no corroboration. These do not enter the map until an analyst confirms or kills them. Nothing here is a claim, it is a question.</p>
+<div class=grid>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Bo AI</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/bo-ai">Bo AI</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.85</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Leaping AI</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/leaping-ai">Leaping AI</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.7</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Phantom</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/phantom-6">Phantom</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.9</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Tag Your Photos</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/tag-your-photos">Tag Your Photos</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.8</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Hardbook</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/hardbook">Hardbook</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.8</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Qwen Scribe</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://github.com/VladUZH/qwen-scribe">Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon</a></p>
+<div class=prov>hackernews &middot; llm &middot; conf 0.65</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>SoundGate Guitar</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/soundgate-guitar-app">SoundGate Guitar</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.8</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Epilude</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/epilude">Epilude</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.75</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Cardzen</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/cardzen">Cardzen</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.8</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Pinery Prose</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/pinery">Pinery Prose</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.9</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>SUB/WAVE</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/sub-wave">SUB/WAVE</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.6</div>
+</div></article>
+<article class="card ">
+<div class=gutter title="0 days since last confirmation"><span class=tick></span></div>
+<div>
+<div class=name>Snapr</div>
+<div class=meta><span class=new>new</span> 0d</div>
+<p class=headline><a href="https://www.producthunt.com/products/snapr-3">Snapr</a></p>
+<div class=prov>producthunt &middot; llm &middot; conf 0.72</div>
+</div></article>
+</div></section>
+<footer><p>Creation tool is absorbing attention this week. Crowding is a reason to move earlier, not a reason to believe.</p><p>Generated by the radar pipeline. Categories, stages and amounts are machine-extracted and carry a source link and a timestamp. Conviction, ranking and pass decisions stay with the analyst and are never written by the model.</p></footer></div></body></html>

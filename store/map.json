@@ -1,0 +1,1323 @@
+{
+  "entities": {
+    "bo": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.85,
+          "event_type": "product",
+          "evidence": [
+            "AI personal assistant living in your texts, direct consumer relationship."
+          ],
+          "headline": "Bo AI",
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-28T10:46:38+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/bo-ai"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/bo-ai",
+          "value": "relationship"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/bo-ai",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.469996+00:00",
+      "last_seen": "2026-07-29T16:03:42.469996+00:00",
+      "name": "Bo AI",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "cardzen": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.8,
+          "event_type": "launch",
+          "evidence": [
+            "Tracks personal credit card perks and points for individual consumers"
+          ],
+          "headline": "Cardzen",
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-23T11:16:46+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/cardzen"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/cardzen",
+          "value": "answer"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/cardzen",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.470998+00:00",
+      "last_seen": "2026-07-29T16:03:42.470998+00:00",
+      "name": "Cardzen",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "character": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "highest session depth in consumer AI; retained asset is user-created"
+          ],
+          "headline": "highest session depth in consumer AI; retained asset is user-created",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "relationship"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Character.AI",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "dashtoon": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "AI comics; consumer content rather than tooling"
+          ],
+          "headline": "AI comics; consumer content rather than tooling",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "india"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Dashtoon",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "elevenlabs": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "voice generation; creator and developer split"
+          ],
+          "headline": "voice generation; creator and developer split",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "ElevenLabs",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "epilude": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.75,
+          "event_type": "product",
+          "evidence": [
+            "Local voice dictation for Mac producing polished text for individuals."
+          ],
+          "headline": "Epilude",
+          "observed_at": "2026-07-29T16:03:42.468973+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-29T00:46:22+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/epilude"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.468973+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/epilude",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.468973+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/epilude",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.468973+00:00",
+      "last_seen": "2026-07-29T16:03:42.468973+00:00",
+      "name": "Epilude",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "fish-audio": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.75,
+          "event_type": "funding",
+          "evidence": [
+            "AI voice model platform enabling creators to produce finished audio artifacts."
+          ],
+          "headline": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+          "observed_at": "2026-07-29T16:03:40.172223+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-28T08:30:00+00:00",
+          "source_id": "techcrunch_ai",
+          "source_url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:40.172223+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch_ai",
+          "source_url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+          "value": "creation"
+        },
+        "last_round_musd": {
+          "observed_at": "2026-07-29T16:03:40.172223+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch_ai",
+          "source_url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+          "value": 52.0
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:40.172223+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch_ai",
+          "source_url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+          "value": "global"
+        },
+        "stage": {
+          "observed_at": "2026-07-29T16:03:40.172223+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch_ai",
+          "source_url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+          "value": "seed"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:40.172223+00:00",
+      "last_seen": "2026-07-29T16:03:40.172223+00:00",
+      "name": "Fish Audio",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "genspark": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "consumer agent; reliability is the retention variable"
+          ],
+          "headline": "consumer agent; reliability is the retention variable",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "agent"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Genspark",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "hardbook": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.8,
+          "event_type": "launch",
+          "evidence": [
+            "AI completes freelancer booking and contract signing task autonomously"
+          ],
+          "headline": "Hardbook",
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "published_at": "2026-05-06T08:32:36+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/hardbook"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/hardbook",
+          "value": "agent"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/hardbook",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.470998+00:00",
+      "last_seen": "2026-07-29T16:03:42.470998+00:00",
+      "name": "Hardbook",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "higgsfield": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "consumer video; distribution-led"
+          ],
+          "headline": "consumer video; distribution-led",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Higgsfield",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "hint": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.82,
+          "event_type": "launch",
+          "evidence": [
+            "AI home assistant that knows your property, maintenance, and documents proactively."
+          ],
+          "headline": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-29T10:05:09+00:00",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
+          "value": "ambient"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.637849+00:00",
+      "last_seen": "2026-07-29T16:03:39.637849+00:00",
+      "name": "Hint",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "krutrim": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "India assistant tied to Ola distribution"
+          ],
+          "headline": "India assistant tied to Ola distribution",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "surface"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "india"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Krutrim",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "leaping": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.7,
+          "event_type": "product",
+          "evidence": [
+            "AI agents that call and text people in multi-day campaigns; could serve individuals"
+          ],
+          "headline": "Leaping AI",
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "published_at": "2026-05-18T19:14:30+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/leaping-ai"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/leaping-ai",
+          "value": "agent"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/leaping-ai",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.469996+00:00",
+      "last_seen": "2026-07-29T16:03:42.469996+00:00",
+      "name": "Leaping AI",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "limitless": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "wearable capture plus recall; hardware margin risk"
+          ],
+          "headline": "wearable capture plus recall; hardware margin risk",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "ambient"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Limitless",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "openai": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "ChatGPT is the default surface; the benchmark every other category is measured against"
+          ],
+          "headline": "ChatGPT is the default surface; the benchmark every other category is measured against",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "surface"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "OpenAI",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "ozlo": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.7,
+          "event_type": "product",
+          "evidence": [
+            "Sleep earbuds with AI sleep features passively monitoring and improving user sleep."
+          ],
+          "headline": "Ozlo\u2019s Sleepbuds 2 build on Bose\u2019s sleep earbud legacy",
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-28T13:39:18+00:00",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/",
+          "value": "ambient"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.637849+00:00",
+      "last_seen": "2026-07-29T16:03:39.637849+00:00",
+      "name": "Ozlo",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "perplexity": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "answer engine; value leaves with the answer"
+          ],
+          "headline": "answer engine; value leaves with the answer",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "answer"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Perplexity",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "phantom": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.9,
+          "event_type": "launch",
+          "evidence": [
+            "Voice-first AI agent that operates your Mac for individual users"
+          ],
+          "headline": "Phantom",
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-25T07:13:24+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/phantom-6"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/phantom-6",
+          "value": "agent"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.469996+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/phantom-6",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.469996+00:00",
+      "last_seen": "2026-07-29T16:03:42.469996+00:00",
+      "name": "Phantom",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "pinery-prose": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.9,
+          "event_type": "launch",
+          "evidence": [
+            "AI co-author helping individuals write and edit books"
+          ],
+          "headline": "Pinery Prose",
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-27T10:34:39+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/pinery"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/pinery",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/pinery",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.470998+00:00",
+      "last_seen": "2026-07-29T16:03:42.470998+00:00",
+      "name": "Pinery Prose",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "polar": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.85,
+          "event_type": "funding",
+          "evidence": [
+            "AI-first browser as a default thinking and knowledge-work environment for individuals."
+          ],
+          "headline": "Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work",
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-29T09:30:00+00:00",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/",
+          "value": "surface"
+        },
+        "last_round_musd": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/",
+          "value": 5.7
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/",
+          "value": "global"
+        },
+        "stage": {
+          "observed_at": "2026-07-29T16:03:39.637849+00:00",
+          "provenance": "llm",
+          "source_id": "techcrunch",
+          "source_url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/",
+          "value": "seed"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.637849+00:00",
+      "last_seen": "2026-07-29T16:03:39.637849+00:00",
+      "name": "Polar",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "qwen-scribe": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.65,
+          "event_type": "launch",
+          "evidence": [
+            "Local transcription/dictation on personal device, passively knows your speech."
+          ],
+          "headline": "Show HN: Qwen Scribe \u2013 local transcription and dictation for Apple Silicon",
+          "observed_at": "2026-07-29T16:03:43.324796+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-29T09:17:22+00:00",
+          "source_id": "hackernews",
+          "source_url": "https://github.com/VladUZH/qwen-scribe"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:43.324796+00:00",
+          "provenance": "llm",
+          "source_id": "hackernews",
+          "source_url": "https://github.com/VladUZH/qwen-scribe",
+          "value": "ambient"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:43.324796+00:00",
+          "provenance": "llm",
+          "source_id": "hackernews",
+          "source_url": "https://github.com/VladUZH/qwen-scribe",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:43.324796+00:00",
+      "last_seen": "2026-07-29T16:03:43.324796+00:00",
+      "name": "Qwen Scribe",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "replika": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "longest-running companion product; policy risk is the live question"
+          ],
+          "headline": "longest-running companion product; policy risk is the live question",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "relationship"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Replika",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "runway": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "video generation; competing with Luma and Higgsfield"
+          ],
+          "headline": "video generation; competing with Luma and Higgsfield",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        },
+        {
+          "confidence": 0.9,
+          "event_type": "product",
+          "evidence": [
+            "Runway's AI video model produces finished video artifacts for individual creators."
+          ],
+          "headline": "Runway couldn't fix a bug in its AI video model, so it turned the bug into a feature",
+          "observed_at": "2026-07-29T16:03:41.584558+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-28T11:50:10+00:00",
+          "source_id": "venturebeat",
+          "source_url": "https://venturebeat.com/technology/runway-couldnt-fix-a-bug-in-its-ai-video-model-so-it-turned-the-bug-into-a-feature"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:41.584558+00:00",
+      "name": "Runway",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "sarvam": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "India-first assistant; multilingual distribution wedge"
+          ],
+          "headline": "India-first assistant; multilingual distribution wedge",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "surface"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "india"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Sarvam AI",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "sesame": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "voice-native with persistent memory; watchlist priority"
+          ],
+          "headline": "voice-native with persistent memory; watchlist priority",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "ambient"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Sesame",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "snapr": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.72,
+          "event_type": "launch",
+          "evidence": [
+            "Captures and retrieves personal thoughts instantly, a personal thinking surface."
+          ],
+          "headline": "Snapr",
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "published_at": "2025-11-28T14:41:29+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/snapr-3"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/snapr-3",
+          "value": "surface"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/snapr-3",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.470998+00:00",
+      "last_seen": "2026-07-29T16:03:42.470998+00:00",
+      "name": "Snapr",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "soundgate-guitar": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.8,
+          "event_type": "product",
+          "evidence": [
+            "AI music tutor giving real-time feedback to individual learners."
+          ],
+          "headline": "SoundGate Guitar",
+          "observed_at": "2026-07-29T16:03:42.468973+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-05T16:33:44+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/soundgate-guitar-app"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.468973+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/soundgate-guitar-app",
+          "value": "answer"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.468973+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/soundgate-guitar-app",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.468973+00:00",
+      "last_seen": "2026-07-29T16:03:42.468973+00:00",
+      "name": "SoundGate Guitar",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "sub-wave": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.6,
+          "event_type": "launch",
+          "evidence": [
+            "AI DJ generating personal radio stream for individual listeners"
+          ],
+          "headline": "SUB/WAVE",
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-27T03:46:25+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/sub-wave"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/sub-wave",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/sub-wave",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.470998+00:00",
+      "last_seen": "2026-07-29T16:03:42.470998+00:00",
+      "name": "SUB/WAVE",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "suno": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "music generation; artifact goes home with the user"
+          ],
+          "headline": "music generation; artifact goes home with the user",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "creation"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Suno",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "tag-your-photos": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 0.8,
+          "event_type": "product",
+          "evidence": [
+            "AI auto-tags personal Apple Photos on-device for individual users"
+          ],
+          "headline": "Tag Your Photos",
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "published_at": "2026-07-27T14:15:27+00:00",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/tag-your-photos"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/tag-your-photos",
+          "value": "agent"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:42.470998+00:00",
+          "provenance": "llm",
+          "source_id": "producthunt",
+          "source_url": "https://www.producthunt.com/products/tag-your-photos",
+          "value": "global"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:42.470998+00:00",
+      "last_seen": "2026-07-29T16:03:42.470998+00:00",
+      "name": "Tag Your Photos",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    },
+    "wysa": {
+      "aliases": [],
+      "events": [
+        {
+          "confidence": 1.0,
+          "event_type": "watchlist",
+          "evidence": [
+            "conversational mental health; payer is often not the user"
+          ],
+          "headline": "conversational mental health; payer is often not the user",
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "published_at": "2026-07-29T16:03:39.066684+00:00",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist"
+        }
+      ],
+      "facts": {
+        "category": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "relationship"
+        },
+        "region": {
+          "observed_at": "2026-07-29T16:03:39.066684+00:00",
+          "provenance": "human",
+          "source_id": "watchlist",
+          "source_url": "analyst://watchlist",
+          "value": "india"
+        }
+      },
+      "first_seen": "2026-07-29T16:03:39.066684+00:00",
+      "last_seen": "2026-07-29T16:03:39.066684+00:00",
+      "name": "Wysa",
+      "review": {
+        "note": null,
+        "status": "unreviewed"
+      }
+    }
+  },
+  "runs": [
+    {
+      "at": "2026-07-29T16:04:11.925838+00:00",
+      "changes": 34,
+      "events": 17
+    }
+  ]
+}
